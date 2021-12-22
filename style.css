@@ -31,6 +31,10 @@ header img {
   justify-content: center;
 }
 
+.icon:hover {
+  transform: scale(1.2, 1.2);
+}
+
 .navv {
   grid-area: navv;
   display: flex;

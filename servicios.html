@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://raw.github.com/daneden/animate.css/master/animate.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,200;0,400;0,700;1,200&display=swap"
@@ -34,11 +42,11 @@
       </div>
     </header>
     <section class="section_services">
-      <div class="title_general">
+      <div class="title_general animate__animated animate__backInDown">
         <h1>Nuestros Servicios</h1>
       </div>
       <div class="services">
-        <div class="services_text">
+        <div class="services_text animate__animated animate__backInLeft">
           <h3>SERVICIO DE JARDINERIA</h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae,
@@ -49,8 +57,8 @@
             aspernatur consectetur distinctio sit.
           </p>
         </div>
-        <div class="services_img"></div>
-        <div class="services_text">
+        <div class="services_img animate__animated animate__backInRight"></div>
+        <div class="services_text animate__animated animate__backInLeft">
           <h3>SERVICIO DE DESMALEZAMIENTO</h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae,
@@ -61,8 +69,8 @@
             aspernatur consectetur distinctio sit.
           </p>
         </div>
-        <div class="services_img"></div>
-        <div class="services_text">
+        <div class="services_img animate__animated animate__backInRight"></div>
+        <div class="services_text animate__animated animate__backInLeft">
           <h3>CONTROL DE PLAGAS</h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae,
@@ -73,8 +81,8 @@
             aspernatur consectetur distinctio sit.
           </p>
         </div>
-        <div class="services_img"></div>
-        <div class="services_text">
+        <div class="services_img animate__animated animate__backInRight"></div>
+        <div class="services_text animate__animated animate__backInLeft">
           <h3>PROYECTOS</h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae,
@@ -85,7 +93,7 @@
             aspernatur consectetur distinctio sit.
           </p>
         </div>
-        <div class="services_img"></div>
+        <div class="services_img animate__animated animate__backInRight"></div>
       </div>
     </section>
     <footer>
@@ -100,5 +108,9 @@
         <img src="./img/instagram.png" alt="logo instagram" />
       </div>
     </footer>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
